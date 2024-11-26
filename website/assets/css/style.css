@@ -12,14 +12,27 @@ body{
     align-items: center; 
     width: 100%;
   }
-
+/*
   .tagline h1, .tagline h2 {
     background-color: white; 
     text-align: center;
     margin: 0px 0px 100px 0px; 
     padding: 0px 495px; 
   }
+*/
+  .tagline h1, .tagline h2 {
+    background-color: white; 
+    text-align: center;
+    margin: 0px 0px 150px 0px;  /* Centra los elementos horizontalmente */
+    padding: 0px 130px;  /* Reduce el padding para evitar restricciones */
+    white-space: nowrap; 
+}
 
-  .tagline h1 {
+.tagline h1 {
     margin-bottom: 15px; 
-  }
+    font-size: 9rem; 
+    font-weight: 300;
+}
+
+.tagline h2 {
+    font-size: 5rem; 
