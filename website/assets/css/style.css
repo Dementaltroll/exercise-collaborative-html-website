@@ -1,24 +1,39 @@
 body {
   background: #BDBDBD;
 }
-
-
- #taglineStyle {
-  background-image: url('../img/bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 600px;
- 
- }
-
-#taglineStyle h1 {
-  font-size: 8rem; 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+.tagline {
+    background-image: url('../img/bg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+  }
+/*
+  .tagline h1, .tagline h2 {
+    background-color: white; 
+    text-align: center;
+    margin: 0px 0px 100px 0px; 
+    padding: 0px 495px; 
+  }
+*/
+  .tagline h1, .tagline h2 {
+    background-color: white; 
+    text-align: center;
+    margin: 0px 0px 150px 0px;  /* Centra los elementos horizontalmente */
+    padding: 0px 130px;  /* Reduce el padding para evitar restricciones */
+    white-space: nowrap; 
 }
 
-#taglineStyle h2 {
-  font-size: 4rem;
-  font-family: 'Roboto', sans-serif;
+.tagline h1 {
+    margin-bottom: 15px; 
+    font-size: 9rem; 
+    font-weight: 300;
 }
+
+.tagline h2 {
+    font-size: 5rem; 
+   }
