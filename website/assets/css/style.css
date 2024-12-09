@@ -1,5 +1,5 @@
-body{
-    background: #BDBDBD;
+body {
+  background: #BDBDBD;
 }
 .tagline {
     background-image: url('../img/bg.jpg');
@@ -20,7 +20,7 @@ body{
     padding: 0px 495px; 
   }
 */
-  .tagline h1, .tagline h2 {
+.tagline h1, .tagline h2 {
     background-color: white; 
     text-align: center;
     margin: 0px 0px 150px 0px;  /* Centra los elementos horizontalmente */
@@ -50,9 +50,8 @@ body{
   padding: 0px 100px
 }
 
-
 hr {
-  margin: 100px;
+  margin: 17px 100px;
   color: inherit;
   background-color: currentColor;
   border: 0;
